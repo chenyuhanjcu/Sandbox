@@ -7,7 +7,8 @@ Password Checker. Created by Chenyuhan Shen. 24-11-2021
 
 def main():
     """Starting Program"""
-    password = "12345678"
+    password = input("Enter a pass word")
+
     if check_password(password):
         print("Logged in")
     else:
