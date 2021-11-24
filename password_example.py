@@ -6,7 +6,7 @@ Password Checker. Created by Chenyuhan Shen. 24-11-2021
 
 
 def main():
-    """Starting Program"""
+    """Starting Program."""
     password = input("Enter a pass word")
 
     if check_password(password):
@@ -16,6 +16,7 @@ def main():
 
 
 def check_password(password):
+    """Check if password is valid."""
     return password == "12345678"
 
 
